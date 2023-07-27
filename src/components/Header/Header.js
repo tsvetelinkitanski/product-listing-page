@@ -2,12 +2,13 @@ import React from "react";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import DropdownToggle from "../Dropdown/DropdownToggle";
-// import NavDropdown from 'react-bootstrap/NavDropdown';
+import DropdownFilter from "../Dropdown/DropdownFilter";
+import DropdownSort from "../Dropdown/DropdownSort";
+import "./Header.css";
 
 function Header() {
   return (
-    <div>
+    <div className="header-wrapper">
       <Navbar expand="lg" className="bg-body-tertiary">
         <Container>
           <Navbar.Brand href="#home">NobleFit</Navbar.Brand>
@@ -21,7 +22,14 @@ function Header() {
           </Navbar.Collapse>
         </Container>
       </Navbar>
-      <DropdownToggle />
+      <div className="options">
+        <div className="filter">
+          <DropdownFilter />
+        </div>
+        <div className="sort">
+          <DropdownSort />
+        </div>
+      </div>
     </div>
   );
 }
