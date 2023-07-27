@@ -1,0 +1,40 @@
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-self: center;
+    letter-spacing: 0.05rem;
+    background: #234465;
+    padding: 0.8rem 1rem;
+    color: white;
+}
+
+.navbar-dashboard {
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+}
+.dashboard nav{
+    background: transparent;
+}
+
+nav.navbar a {
+    display: flex;
+    flex-direction: row;
+    padding: 0.1rem 0.1rem;
+    border-radius: 0.4rem;
+    text-decoration: none;
+    color: #F2F2F2;
+}
+
+.navbar a:hover {
+    background: lightsalmon;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+#user {
+    display: flex;
+    gap: 20px;
+
+}
