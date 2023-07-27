@@ -9,7 +9,7 @@ import "./Header.css";
 function Header() {
   return (
     <div className="header-wrapper">
-      <Navbar expand="lg" className="bg-body-tertiary">
+      <Navbar fixed="top" expand="lg" className="bg-body-tertiary">
         <Container>
           <Navbar.Brand href="#home">NobleFit</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />

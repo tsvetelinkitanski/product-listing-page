@@ -22,7 +22,7 @@ function GridCard(card) {
       <Card style={{ width: "20rem" }}>
         <Card.Img variant="top" src={card.img} />
         <Card.Body>
-          <Card.Title>{card.Title}</Card.Title>
+          <Card.Title>{card.title}</Card.Title>
           <Card.Text>{card.description}</Card.Text>
           <Button variant="primary">Add to cart</Button>
         </Card.Body>
