@@ -6,7 +6,7 @@ export default function WomanPage() {
   return (
     <>
       <h2 className="d-flex justify-content-center text-bg-dark bg-opacity-50 mt-4 rounded-bottom-5">
-        Woman dress
+        Women clothing
       </h2>
       <GridPlace infoData={dataWoman} />;
     </>

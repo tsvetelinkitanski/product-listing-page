@@ -6,7 +6,7 @@ export default function ManPage() {
   return (
     <>
       <h2 className="d-flex justify-content-center text-bg-dark bg-opacity-50 mt-4 rounded-bottom-5">
-        Man dress
+        Men clothing
       </h2>
       <GridPlace infoData={dataMan} />;
     </>

@@ -12,7 +12,7 @@ export default function DropdownFilter() {
         <Col sm={4}>
           <ListGroup>
             <ListGroup.Item as={Link} variant="secondary" action to="/man-page">
-              Man dress
+              Men clothing
             </ListGroup.Item>
             <ListGroup.Item
               as={Link}
@@ -20,7 +20,7 @@ export default function DropdownFilter() {
               action
               to="/woman-page"
             >
-              Woman dress
+              Women clothing
             </ListGroup.Item>
           </ListGroup>
         </Col>
