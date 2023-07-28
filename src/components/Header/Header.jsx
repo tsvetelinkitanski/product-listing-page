@@ -18,10 +18,10 @@ function Header({ onSort }) {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
               <Nav.Link as={Link} to="/man-page">
-                <Men></Men>
+                Men
               </Nav.Link>
               <Nav.Link as={Link} to="/woman-page">
-                Women
+                Woman
               </Nav.Link>
               <Nav.Link as={Link} to="/sale-page">
                 Sale
