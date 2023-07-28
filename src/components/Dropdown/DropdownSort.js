@@ -1,6 +1,11 @@
+import React from "react";
 import Dropdown from "react-bootstrap/Dropdown";
 
-function DropdownSort() {
+function DropdownSort({ onSort }) {
+  const handleSort = (sortType) => {
+    onSort(sortType);
+  };
+
   return (
     <Dropdown>
       <Dropdown.Toggle variant="secondary" id="dropdown-basic">
@@ -8,10 +13,14 @@ function DropdownSort() {
       </Dropdown.Toggle>
 
       <Dropdown.Menu>
-        <Dropdown.Item href="#/action-1">A-Z</Dropdown.Item>
-        <Dropdown.Item href="#/action-2">Z-A</Dropdown.Item>
-        <Dropdown.Item href="#/action-3">Ascending order</Dropdown.Item>
-        <Dropdown.Item href="#/action-3">Descending order</Dropdown.Item>
+        <Dropdown.Item onClick={() => handleSort("A-Z")}>A-Z</Dropdown.Item>
+        <Dropdown.Item onClick={() => handleSort("Z-A")}>Z-A</Dropdown.Item>
+        <Dropdown.Item onClick={() => handleSort("ascending")}>
+          Ascending order
+        </Dropdown.Item>
+        <Dropdown.Item onClick={() => handleSort("descending")}>
+          Descending order
+        </Dropdown.Item>
       </Dropdown.Menu>
     </Dropdown>
   );

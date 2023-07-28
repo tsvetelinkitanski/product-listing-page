@@ -6,7 +6,7 @@ import DropdownFilter from "../Dropdown/DropdownFilter";
 import DropdownSort from "../Dropdown/DropdownSort";
 import { Link } from "react-router-dom";
 
-function Header() {
+function Header({ onSort }) {
   return (
     <div className="d-flex flex-column mt-5">
       <Navbar fixed="top" expand="lg" className="bg-body-tertiary">
@@ -33,9 +33,6 @@ function Header() {
       <div className="d-flex pt-5 justify-content-between align-items-center">
         <div className=" col-9">
           <DropdownFilter />
-        </div>
-        <div className="d-flex flex-row-reverse">
-          <DropdownSort />
         </div>
       </div>
     </div>
