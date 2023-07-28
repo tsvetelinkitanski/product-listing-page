@@ -11,10 +11,10 @@ export default function DropdownFilter() {
         <Col sm={4}>
           <ListGroup>
             <ListGroup.Item variant="secondary" action href="#link1">
-              Man shoes
+              Man dress
             </ListGroup.Item>
             <ListGroup.Item variant="secondary" action href="#link2">
-              Woman backpacks
+              Woman dress
             </ListGroup.Item>
           </ListGroup>
         </Col>

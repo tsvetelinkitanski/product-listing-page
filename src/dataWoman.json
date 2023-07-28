@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "title": "T-shirt",
+    "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque nostrum iste explicabo enim dolores, rem totam. Nobis, voluptate numquam unde hic accusantium eos reiciendis ut sed. Ipsam nemo voluptas laudantium!",
+    "image": "./images/woman/pexels-anastasiya-gepp-2065195.jpg",
+    "price": 111
+  },
+  {
+    "id": 2,
+    "title": "Jeans",
+    "description": "Lorem, ipsum dolor sit amet consectetur explicabo enim dolores, rem totam. Nobis, voluptate numquam unde hic accusantium eos reiciendis ut sed. Ipsam nemo voluptas laudantium!",
+    "image": "./images/woman/pexels-evg-kowalievska-1055691.jpg",
+    "price": 409
+  },
+  {
+    "id": 3,
+    "title": "Shorts",
+    "description": "Lorem, adipisicing elit. Neque nostrum iste explicabo enim dolores, rem totam. Nobis, voluptate numquam unde hic accusantium eos reiciendis ut sed. Ipsam nemo voluptas laudantium!",
+    "image": "./images/woman/pexels-guan-yoanda-17290214.jpg",
+    "price": 222
+  },
+  {
+    "id": 4,
+    "title": "Shirt",
+    "description": "Lorem, ipsum dolor sit amet consectetur adipisicing nostrum iste explicabo enim dolores, rem totam. Nobis, voluptate numquam unde hic accusantium eos reiciendis ut sed. Ipsam nemo voluptas laudantium!",
+    "image": "./images/woman/pexels-pixabay-458694.jpg",
+    "price": 154
+  },
+  {
+    "id": 5,
+    "title": "Bag",
+    "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque nostrum iste explicabo enim dolores, rem totam. Nobis, voluptate num!",
+    "image": "./images/woman/pexels-yuri-manei-2235071.jpg",
+    "price": 288
+  },
+  {
+    "id": 6,
+    "title": "Backpack",
+    "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque nostrum iste explicabo enim dolores, rem totam. Nobis, voluptate numquam unde hic accusantium eos reiciendis ut sed. Ipsam nemo voluptas laudantium!",
+    "image": "./images/woman/pexels-надежда-лазарева-17662401.jpg",
+    "price": 212
+  }
+]
