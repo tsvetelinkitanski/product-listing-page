@@ -1,9 +1,11 @@
-import { useState } from "react";
-import { Badge, Modal, Form } from "react-bootstrap";
+import { Badge } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 
-function GridCard(card) {
+function GridCard({ onAddToCart, ...card }) {
+  const handleAddToCart = () => {
+    onAddToCart();
+  };
   return (
     <Card className="d-flex flex-row flex-wrap mb-5" style={{ width: "20rem" }}>
       <Card.Img variant="top" src={card.image}></Card.Img>
@@ -17,7 +19,11 @@ function GridCard(card) {
           </Badge>
         </div>
         <Card.Text className="text-secondary">{card.description}</Card.Text>
-        <Button className="mt-auto font-weight-bold" variant="primary">
+        <Button
+          className="mt-auto font-weight-bold"
+          variant="primary"
+          onClick={handleAddToCart}
+        >
           Add to cart
         </Button>
       </Card.Body>
