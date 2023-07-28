@@ -18,8 +18,8 @@ import Card from "react-bootstrap/Card";
 
 function GridCard(card) {
   return (
-    <div className="d-flex justify-content-around">
-      <Card style={{ width: "20rem" }}>
+    <div className="d-flex">
+      <Card className="d-flex flex-wrap gy-2" style={{ width: "10rem" }}>
         <Card.Img variant="top" src={card.img} />
         <Card.Body>
           <Card.Title>{card.title}</Card.Title>

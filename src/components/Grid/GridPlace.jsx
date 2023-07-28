@@ -46,16 +46,15 @@ function GridPlace() {
   }, []);
 
   return (
-    <Row xs={2} md={4} className="g-4">
-      {Array.from({ length: 1 }).map((_, idx) => (
-        <Container>
-          <Col key={idx}>
+    <Row xs={4} md={4} className="d-flex">
+        <Container className=" p-0 g-4 justify-content-between">
+          <Col className="mb-5 d-flex flex-wrap">
             {cards.map((card) => (
               <GridCard {...card} />
             ))}
           </Col>
         </Container>
-      ))}
+      
     </Row>
   );
 }

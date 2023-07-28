@@ -4,11 +4,10 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import DropdownFilter from "../Dropdown/DropdownFilter";
 import DropdownSort from "../Dropdown/DropdownSort";
-import "./Header.css";
 
 function Header() {
   return (
-    <div className="header-wrapper">
+    <div className="d-flex flex-column mt-5">
       <Navbar fixed="top" expand="lg" className="bg-body-tertiary">
         <Container>
           <Navbar.Brand href="#home">NobleFit</Navbar.Brand>
@@ -22,11 +21,11 @@ function Header() {
           </Navbar.Collapse>
         </Container>
       </Navbar>
-      <div className="options">
-        <div className="filter">
+      <div className="d-flex pt-5 justify-content-between align-items-center">
+        <div className=" col-9">
           <DropdownFilter />
         </div>
-        <div className="sort">
+        <div className="col-3 d-flex flex-row-reverse">
           <DropdownSort />
         </div>
       </div>
