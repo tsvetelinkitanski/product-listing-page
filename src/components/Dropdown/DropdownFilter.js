@@ -3,6 +3,7 @@ import Col from "react-bootstrap/Col";
 import ListGroup from "react-bootstrap/ListGroup";
 import Row from "react-bootstrap/Row";
 import Tab from "react-bootstrap/Tab";
+import { Link } from "react-router-dom";
 
 export default function DropdownFilter() {
   return (
@@ -10,10 +11,15 @@ export default function DropdownFilter() {
       <Row>
         <Col sm={4}>
           <ListGroup>
-            <ListGroup.Item variant="secondary" action href="#link1">
+            <ListGroup.Item as={Link} variant="secondary" action to="/man-page">
               Man dress
             </ListGroup.Item>
-            <ListGroup.Item variant="secondary" action href="#link2">
+            <ListGroup.Item
+              as={Link}
+              variant="secondary"
+              action
+              to="/woman-page"
+            >
               Woman dress
             </ListGroup.Item>
           </ListGroup>

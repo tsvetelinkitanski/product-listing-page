@@ -3,5 +3,12 @@ import GridPlace from "../components/Grid/GridPlace";
 import dataMan from "../dataMan.json";
 
 export default function ManPage() {
-  return <GridPlace infoData={dataMan} />;
+  return (
+    <>
+      <h2 className="d-flex justify-content-center text-bg-dark bg-opacity-50 mt-4 rounded-bottom-5">
+        Man dress
+      </h2>
+      <GridPlace infoData={dataMan} />;
+    </>
+  );
 }
