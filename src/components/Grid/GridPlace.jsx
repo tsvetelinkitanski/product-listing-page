@@ -46,9 +46,9 @@ function GridPlace() {
   }, []);
 
   return (
-    <Row xs={4} md={4} className="d-flex">
-        <Container className=" p-0 g-4 justify-content-between">
-          <Col className="mb-5 d-flex flex-wrap">
+    <Row xs={4} md={1} className="d-flex align-items-center">
+        <Container className=" p-0 g-4">
+          <Col className="m-1 d-flex flex-wrap justify-content-around">
             {cards.map((card) => (
               <GridCard {...card} />
             ))}
