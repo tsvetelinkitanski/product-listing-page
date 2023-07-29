@@ -5,6 +5,7 @@ import WomanPage from "./Views/WomanPage";
 import ManPage from "./Views/ManPage";
 import SalePage from "./Views/SalePage";
 import HomePage from "./Views/HomePage";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path="/woman-page" element={<WomanPage />} />
         <Route path="/sale-page" element={<SalePage />} />
       </Routes>
+      <Footer />
     </div>
   );
 }

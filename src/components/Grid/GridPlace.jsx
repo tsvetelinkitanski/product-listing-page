@@ -27,10 +27,10 @@ function GridPlace({ infoData }) {
 
   return (
     <>
-      <div className="d-flex justify-content-end pr-4">
+      <div className="d-flex justify-content-end pr-2">
         <DropdownSort onSort={handleSort} />
       </div>
-      <Row xs={4} md={1} className="d-flex align-items-center">
+      <Row xs={"auto"} md={"auto"} className="d-flex align-items-center gx-5">
         <Container className="p-0 g-4">
           <Col className="m-1 d-flex flex-wrap justify-content-around">
             {sortedData.map((card) => (
