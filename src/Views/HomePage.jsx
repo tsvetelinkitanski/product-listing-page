@@ -30,9 +30,11 @@ export default function HomePage() {
       </h2>
       <GridPlace key={renderKey} infoData={displayedData} />
       {!loadMore && (
-        <Button className="text-bg-secondary" onClick={handleLoadMore}>
-          Load more
-        </Button>
+        <div className="d-flex justify-content-center mb-5">
+          <Button variant="outline-dark" onClick={handleLoadMore}>
+            Load more
+          </Button>
+        </div>
       )}
     </>
   );
