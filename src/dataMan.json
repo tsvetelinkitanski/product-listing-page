@@ -42,14 +42,14 @@
     "price": 45
   },
   {
-    "id": 6,
+    "id": 7,
     "title": "Backpack",
     "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque nostrum iste explicabo enim dolores, rem totam. Nobis, voluptate numquam unde hic accusantium eos reiciendis ut sed. Ipsam nemo voluptas laudantium!",
     "image": "./images/man/pexels-monstera-6310924.jpg",
     "price": 45
   },
   {
-    "id": 6,
+    "id": 8,
     "title": "Backpack",
     "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque nostrum iste explicabo enim dolores, rem totam. Nobis, voluptate numquam unde hic accusantium eos reiciendis ut sed. Ipsam nemo voluptas laudantium!",
     "image": "./images/man/pexels-oliver-sjöström-1103828.jpg",

@@ -10,7 +10,7 @@ export default function HomePage() {
 
   const getRandomData = () => {
     const shuffledData = allData.sort(() => 0.5 - Math.random());
-    return shuffledData.slice(0, 6);
+    return shuffledData.slice(0, 8);
   };
 
   if (displayedData.length === 0) {

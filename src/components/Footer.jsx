@@ -13,69 +13,27 @@ export default function App() {
     <MDBFooter className="text-center" color="white" bgColor="dark">
       <MDBContainer className="p-4">
         <section className="mb-4">
-          <MDBBtn
-            outline
-            color="light"
-            floating
-            className="m-1"
-            href="#!"
-            role="button"
-          >
-            <MDBIcon fab icon="facebook-f" />
+          <MDBBtn outline color="light" floating className="m-1" role="button">
+            <MDBIcon fab icon="facebook" />
           </MDBBtn>
 
-          <MDBBtn
-            outline
-            color="light"
-            floating
-            className="m-1"
-            href="#!"
-            role="button"
-          >
+          <MDBBtn outline color="light" floating className="m-1" role="button">
             <MDBIcon fab icon="twitter" />
           </MDBBtn>
 
-          <MDBBtn
-            outline
-            color="light"
-            floating
-            className="m-1"
-            href="#!"
-            role="button"
-          >
+          <MDBBtn outline color="light" floating className="m-1" role="button">
             <MDBIcon fab icon="google" />
           </MDBBtn>
 
-          <MDBBtn
-            outline
-            color="light"
-            floating
-            className="m-1"
-            href="#!"
-            role="button"
-          >
+          <MDBBtn outline color="light" floating className="m-1" role="button">
             <MDBIcon fab icon="instagram" />
           </MDBBtn>
 
-          <MDBBtn
-            outline
-            color="light"
-            floating
-            className="m-1"
-            href="#!"
-            role="button"
-          >
+          <MDBBtn outline color="light" floating className="m-1" role="button">
             <MDBIcon fab icon="linkedin-in" />
           </MDBBtn>
 
-          <MDBBtn
-            outline
-            color="light"
-            floating
-            className="m-1"
-            href="#!"
-            role="button"
-          >
+          <MDBBtn outline color="light" floating className="m-1" role="button">
             <MDBIcon fab icon="github" />
           </MDBBtn>
         </section>
@@ -119,108 +77,78 @@ export default function App() {
         <section className="">
           <MDBRow>
             <MDBCol lg="3" md="6" className="mb-4 mb-md-0">
-              <h5 className="text-uppercase">Links</h5>
+              <h5 className="text-uppercase">Get help</h5>
 
               <ul className="list-unstyled mb-0">
                 <li>
-                  <a href="#!" className="text-white">
-                    Link 1
+                  <a href="#!" className="text-white text-decoration-none">
+                    Order status
                   </a>
                 </li>
                 <li>
-                  <a href="#!" className="text-white">
-                    Link 2
+                  <a href="#!" className="text-white text-decoration-none">
+                    Shipping and delivery
                   </a>
                 </li>
                 <li>
-                  <a href="#!" className="text-white">
-                    Link 3
+                  <a href="#!" className="text-white text-decoration-none">
+                    Returns
                   </a>
                 </li>
                 <li>
-                  <a href="#!" className="text-white">
-                    Link 4
+                  <a href="#!" className="text-white text-decoration-none">
+                    Payment options
                   </a>
                 </li>
               </ul>
             </MDBCol>
 
             <MDBCol lg="3" md="6" className="mb-4 mb-md-0">
-              <h5 className="text-uppercase">Links</h5>
+              <h5 className="text-uppercase">About</h5>
 
               <ul className="list-unstyled mb-0">
                 <li>
-                  <a href="#!" className="text-white">
-                    Link 1
+                  <a href="#!" className="text-white text-decoration-none">
+                    News{" "}
                   </a>
                 </li>
                 <li>
-                  <a href="#!" className="text-white">
-                    Link 2
+                  <a href="#!" className="text-white text-decoration-none">
+                    Investors
                   </a>
                 </li>
                 <li>
-                  <a href="#!" className="text-white">
-                    Link 3
-                  </a>
-                </li>
-                <li>
-                  <a href="#!" className="text-white">
-                    Link 4
+                  <a href="#!" className="text-white text-decoration-none">
+                    Sustainability
                   </a>
                 </li>
               </ul>
             </MDBCol>
 
             <MDBCol lg="3" md="6" className="mb-4 mb-md-0">
-              <h5 className="text-uppercase">Links</h5>
+              <h5 className="text-uppercase">Join us</h5>
 
               <ul className="list-unstyled mb-0">
                 <li>
-                  <a href="#!" className="text-white">
-                    Link 1
-                  </a>
-                </li>
-                <li>
-                  <a href="#!" className="text-white">
-                    Link 2
-                  </a>
-                </li>
-                <li>
-                  <a href="#!" className="text-white">
-                    Link 3
-                  </a>
-                </li>
-                <li>
-                  <a href="#!" className="text-white">
-                    Link 4
+                  <a href="#!" className="text-white text-decoration-none">
+                    Careers
                   </a>
                 </li>
               </ul>
             </MDBCol>
 
             <MDBCol lg="3" md="6" className="mb-4 mb-md-0">
-              <h5 className="text-uppercase">Links</h5>
+              <h5 className="text-uppercase">Find a store</h5>
 
               <ul className="list-unstyled mb-0">
                 <li>
-                  <a href="#!" className="text-white">
-                    Link 1
+                  <a href="#!" className="text-white text-decoration-none">
+                    Become a member
                   </a>
                 </li>
                 <li>
-                  <a href="#!" className="text-white">
-                    Link 2
-                  </a>
-                </li>
-                <li>
-                  <a href="#!" className="text-white">
-                    Link 3
-                  </a>
-                </li>
-                <li>
-                  <a href="#!" className="text-white">
-                    Link 4
+                  <a href="#!" className="text-white text-decoration-none">
+                    Feedback
                   </a>
                 </li>
               </ul>
@@ -233,9 +161,9 @@ export default function App() {
         className="text-center p-3"
         style={{ backgroundColor: "rgba(0, 0, 0, 0.2)" }}
       >
-        © 2020 Copyright:
+        © 2023 Copyright:
         <a className="text-white" href="https://mdbootstrap.com/">
-          MDBootstrap.com
+          NobleFit
         </a>
       </div>
     </MDBFooter>

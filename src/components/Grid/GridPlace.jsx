@@ -2,14 +2,13 @@ import React, { useState } from "react";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
 import GridCard from "./GridCard";
-import { Button, Container } from "react-bootstrap";
+import { Container } from "react-bootstrap";
 import DropdownSort from "../Dropdown/DropdownSort";
 
 function GridPlace({ infoData }) {
   const [sortedData, setSortedData] = useState(infoData);
 
   const handleSort = (sortType) => {
-    // Apply the sorting logic based on the chosen sort type
     if (sortType === "A-Z") {
       setSortedData(
         [...infoData].sort((a, b) => a.title.localeCompare(b.title))
