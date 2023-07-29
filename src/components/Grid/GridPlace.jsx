@@ -38,7 +38,6 @@ function GridPlace({ infoData }) {
             ))}
           </Col>
         </Container>
-        <Button className="text-bg-secondary">Load more</Button>
       </Row>
     </>
   );

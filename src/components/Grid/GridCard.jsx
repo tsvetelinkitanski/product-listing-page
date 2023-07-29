@@ -13,25 +13,13 @@ function GridCard(card) {
     <Card className="d-flex flex-row flex-wrap mb-5" style={{ width: "20rem" }}>
       <Card.Img variant="top" src={card.image}></Card.Img>
 
-      <Modal show={showModal} onHide={handleModal}>
-        <Modal.Header closeButton>
-          <Modal.Title>Add to Cart</Modal.Title>
+      <Modal show={showModal}>
+        <Modal.Header>
+          <Modal.Title>Product added to cart</Modal.Title>
         </Modal.Header>
-        <Modal.Body>
-          <Form>
-            {/* Add form fields or any other content for the pop-up */}
-            <Form.Group controlId="formQuantity">
-              <Form.Label>Quantity</Form.Label>
-              <Form.Control type="number" />
-            </Form.Group>
-          </Form>
-        </Modal.Body>
         <Modal.Footer>
-          <Button variant="secondary" onClick={handleModal}>
-            Close
-          </Button>
           <Button variant="primary" onClick={handleModal}>
-            Add to Cart
+            Close
           </Button>
         </Modal.Footer>
       </Modal>
