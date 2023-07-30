@@ -3,8 +3,8 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import DropdownFilter from "../Dropdown/DropdownFilter";
-import DropdownSort from "../Dropdown/DropdownSort";
 import { Link } from "react-router-dom";
+// import Logo from '/Logo.jpg'
 
 function Header({ onSort }) {
   return (
@@ -12,7 +12,11 @@ function Header({ onSort }) {
       <Navbar fixed="top" expand="lg" className="bg-body-tertiary">
         <Container>
           <Navbar.Brand as={Link} to="/home">
-            NobleFit
+            <img
+              src="./images/Logo.jpg"
+              className="d-flex w-25 pl-3 pr-3"
+              alt="logo"
+            />
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
