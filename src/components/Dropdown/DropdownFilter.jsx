@@ -40,7 +40,7 @@ export default function DropdownFilter({ onFilter }) {
         <Row className=" mt-5">
           <Col sm={4}>
             <div className="d-flex">
-              <label className="pr-3">Gender</label>
+              <label className="pr-3 fw-bold">Gender</label>
               <div className="form-check form-check-inline">
                 <input
                   className="form-check-input"
@@ -68,7 +68,7 @@ export default function DropdownFilter({ onFilter }) {
             </div>
 
             <div className="d-flex">
-              <label className="pr-4">Size</label>
+              <label className="pr-4 fw-bold">Size</label>
               <div className="form-check form-check-inline">
                 <input
                   className="form-check-input"
