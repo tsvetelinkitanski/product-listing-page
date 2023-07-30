@@ -35,9 +35,21 @@ function GridPlace({ infoData }) {
         [...filteredData].sort((a, b) => b.title.localeCompare(a.title))
       );
     } else if (sortType === "ascending") {
-      setSortedData([...filteredData].sort((a, b) => a.price - b.price));
+      setSortedData(
+        [...filteredData].sort((a, b) => {
+          const aPrice = a.discountedPrice || a.price;
+          const bPrice = b.discountedPrice || b.price;
+          return aPrice - bPrice;
+        })
+      );
     } else if (sortType === "descending") {
-      setSortedData([...filteredData].sort((a, b) => b.price - a.price));
+      setSortedData(
+        [...filteredData].sort((a, b) => {
+          const aPrice = a.discountedPrice || a.price;
+          const bPrice = b.discountedPrice || b.price;
+          return bPrice - aPrice;
+        })
+      );
     }
   };
 
