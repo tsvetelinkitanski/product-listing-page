@@ -4,7 +4,6 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import DropdownFilter from "../Dropdown/DropdownFilter";
 import { Link } from "react-router-dom";
-// import Logo from '/Logo.jpg'
 
 function Header({ onSort }) {
   return (
@@ -35,9 +34,7 @@ function Header({ onSort }) {
         </Container>
       </Navbar>
       <div className="d-flex pt-5 justify-content-between align-items-center">
-        <div className=" col-9">
-          <DropdownFilter />
-        </div>
+        <div className=" col-9">{/* <DropdownFilter /> */}</div>
       </div>
     </div>
   );
