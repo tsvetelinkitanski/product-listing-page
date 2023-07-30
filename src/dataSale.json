@@ -4,7 +4,7 @@
     "title": "Jeans",
     "description": "Lorem, ipsum dolor sit amet consectetur explicabo enim dolores, rem totam. Nobis, voluptate numquam unde hic accusantium eos reiciendis ut sed. Ipsam nemo voluptas laudantium!",
     "image": "./images/sale/pexels-guan-yoanda-17290214.jpg",
-    "price": 65,
+    "discountedPrice": 65,
     "gender": "female",
     "size": "M"
   },
@@ -13,7 +13,7 @@
     "title": "Shorts",
     "description": "Lorem, adipisicing elit. Neque nostrum iste explicabo enim dolores, rem totam. Nobis, voluptate numquam unde hic accusantium eos reiciendis ut sed. Ipsam nemo voluptas laudantium!",
     "image": "./images/sale/pexels-jt-kim-914472.jpg",
-    "price": 66,
+    "discountedPrice": 66,
     "gender": "male",
     "size": "L"
   },
@@ -22,7 +22,7 @@
     "title": "Shirt",
     "description": "Lorem, ipsum dolor sit amet consectetur adipisicing nostrum iste explicabo enim dolores, rem totam. Nobis, voluptate numquam unde hic accusantium eos reiciendis ut sed. Ipsam nemo voluptas laudantium!",
     "image": "./images/sale/pexels-marlene-leppänen-1183266.jpg",
-    "price": 65,
+    "discountedPrice": 65,
     "gender": "male",
     "size": "S"
   },
@@ -31,7 +31,7 @@
     "title": "T-shirt",
     "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque nostrum iste explicabo enim dolores, rem totam. Nobis, voluptate numquam unde hic accusantium eos reiciendis ut sed. Ipsam nemo voluptas laudantium!",
     "image": "./images/sale/pexels-anastasiya-gepp-2065195.jpg",
-    "price": 55,
+    "discountedPrice": 55,
     "gender": "female",
     "size": "S"
   },
@@ -40,7 +40,7 @@
     "title": "Bag",
     "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque nostrum iste explicabo enim dolores, rem totam. Nobis, voluptate num!",
     "image": "./images/sale/pexels-rolando-brando-2709563.jpg",
-    "price": 100,
+    "discountedPrice": 100,
     "gender": "male",
     "size": "L"
   },
@@ -49,7 +49,7 @@
     "title": "Backpack",
     "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque nostrum iste explicabo enim dolores, rem totam. Nobis, voluptate numquam unde hic accusantium eos reiciendis ut sed. Ipsam nemo voluptas laudantium!",
     "image": "./images/sale/pexels-yuri-manei-2235071.jpg",
-    "price": 32,
+    "discountedPrice": 32,
     "gender": "female",
     "size": "S"
   },
@@ -58,7 +58,7 @@
     "title": "Backpack",
     "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque nostrum iste explicabo enim dolores, rem totam. Nobis, voluptate numquam unde hic accusantium eos reiciendis ut sed. Ipsam nemo voluptas laudantium!",
     "image": "./images/sale/pexels-monstera-6311475.jpg",
-    "price": 32,
+    "discountedPrice": 44,
     "gender": "female",
     "size": "M"
   },
@@ -67,7 +67,7 @@
     "title": "Backpack",
     "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque nostrum iste explicabo enim dolores, rem totam. Nobis, voluptate numquam unde hic accusantium eos reiciendis ut sed. Ipsam nemo voluptas laudantium!",
     "image": "./images/sale/pexels-nicolas-postiglioni-852860.jpg",
-    "price": 32,
+    "discountedPrice": 29,
     "gender": "female",
     "size": "L"
   }

@@ -32,9 +32,7 @@ function Header() {
           </Navbar.Collapse>
         </Container>
       </Navbar>
-      <div className="d-flex pt-5 justify-content-between align-items-center">
-        {/* <div className=" col-9"><DropdownFilter /></div> */}
-      </div>
+      <div className="d-flex pt-5"></div>
     </div>
   );
 }

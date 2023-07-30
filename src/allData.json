@@ -49,9 +49,9 @@
     "title": "Backpack",
     "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque nostrum iste explicabo enim dolores, rem totam. Nobis, voluptate numquam unde hic accusantium eos reiciendis ut sed. Ipsam nemo voluptas laudantium!",
     "image": "./images/man/pexels-royal-anwar-450212.jpg",
-    "price": 45,
     "gender": "male",
-    "size": "L"
+    "size": "L",
+    "discountedPrice": 33
   },
   {
     "id": 7,
@@ -85,9 +85,9 @@
     "title": "T-shirt",
     "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque nostrum iste explicabo enim dolores, rem totam. Nobis, voluptate numquam unde hic accusantium eos reiciendis ut sed. Ipsam nemo voluptas laudantium!",
     "image": "./images/sale/pexels-anastasiya-gepp-2065195.jpg",
-    "price": 55,
     "gender": "female",
-    "size": "S"
+    "size": "S",
+    "discountedPrice": 34
   },
   {
     "id": 11,
@@ -112,9 +112,9 @@
     "title": "T-shirt",
     "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque nostrum iste explicabo enim dolores, rem totam. Nobis, voluptate numquam unde hic accusantium eos reiciendis ut sed. Ipsam nemo voluptas laudantium!",
     "image": "./images/woman/pexels-anastasiya-gepp-2065195.jpg",
-    "price": 111,
     "gender": "female",
-    "size": "S"
+    "size": "S",
+    "discountedPrice": 87
   },
   {
     "id": 14,
@@ -148,9 +148,9 @@
     "title": "Bag",
     "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque nostrum iste explicabo enim dolores, rem totam. Nobis, voluptate num!",
     "image": "./images/woman/pexels-yuri-manei-2235071.jpg",
-    "price": 288,
     "gender": "female",
-    "size": "M"
+    "size": "M",
+    "discountedPrice": 244
   },
   {
     "id": 18,
@@ -166,7 +166,7 @@
     "title": "Backpack",
     "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque nostrum iste explicabo enim dolores, rem totam. Nobis, voluptate numquam unde hic accusantium eos reiciendis ut sed. Ipsam nemo voluptas laudantium!",
     "image": "./images/man/pexels-monstera-6310924.jpg",
-    "price": 45,
+    "discountedPrice": 45,
     "gender": "male",
     "size": "S"
   },
@@ -184,9 +184,9 @@
     "title": "Backpack",
     "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque nostrum iste explicabo enim dolores, rem totam. Nobis, voluptate numquam unde hic accusantium eos reiciendis ut sed. Ipsam nemo voluptas laudantium!",
     "image": "./images/woman/pexels-monstera-6311475.jpg",
-    "price": 212,
     "gender": "female",
-    "size": "L"
+    "size": "L",
+    "discountedPrice": 198
   },
   {
     "id": 22,

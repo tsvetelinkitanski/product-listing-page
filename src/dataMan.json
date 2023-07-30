@@ -13,9 +13,9 @@
     "title": "Jeans",
     "description": "Lorem, ipsum dolor sit amet consectetur explicabo enim dolores, rem totam. Nobis, voluptate numquam unde hic accusantium eos reiciendis ut sed. Ipsam nemo voluptas laudantium!",
     "image": "./images/man/pexels-jt-kim-914472.jpg",
-    "price": 132,
     "gender": "male",
-    "size": "M"
+    "size": "M",
+    "discountedPrice": 113
   },
   {
     "id": 3,
@@ -40,9 +40,9 @@
     "title": "Bag",
     "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque nostrum iste explicabo enim dolores, rem totam. Nobis, voluptate num!",
     "image": "./images/man/pexels-rolando-brando-2709563.jpg",
-    "price": 100,
     "gender": "male",
-    "size": "M"
+    "size": "M",
+    "discountedPrice": 43
   },
   {
     "id": 6,

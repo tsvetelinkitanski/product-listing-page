@@ -16,6 +16,22 @@ function GridCard(card) {
     setRating(rate);
   };
 
+  const calculateDiscountedPrice = () => {
+    if (card.discountedPrice) {
+      return card.discountedPrice;
+    } else {
+      return card.price;
+    }
+  };
+
+  const getPriceColor = () => {
+    if (card.discountedPrice) {
+      return "danger";
+    } else {
+      return "dark";
+    }
+  };
+
   return (
     <Card className="d-flex flex-row flex-wrap mb-5" style={{ width: "20rem" }}>
       <Card.Img variant="top" src={card.image}></Card.Img>
@@ -36,8 +52,8 @@ function GridCard(card) {
           <Card.Title className="mb-0 font-weight-bold">
             {card.title}
           </Card.Title>
-          <Badge pill className="mb-2" bg="dark">
-            ${card.price}
+          <Badge pill className="mb-2" bg={getPriceColor()}>
+            ${calculateDiscountedPrice()}
           </Badge>
         </div>
         <Card.Text className="text-secondary">{card.description}</Card.Text>

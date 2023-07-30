@@ -106,12 +106,15 @@ export default function DropdownFilter({ onFilter }) {
                 </label>
               </div>
             </div>
-            <div className="d-flex justify-content-center mt-3">
-              <button className="btn btn-primary" onClick={handleApplyFilters}>
-                Apply Filters
-              </button>
-            </div>
           </Col>
+          <div className="d-flex">
+            <button
+              className="btn btn-outline-dark btn-sm"
+              onClick={handleApplyFilters}
+            >
+              Apply Filters
+            </button>
+          </div>
         </Row>
       </Tab.Container>
     </div>

@@ -4,9 +4,9 @@
     "title": "T-shirt",
     "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque nostrum iste explicabo enim dolores, rem totam. Nobis, voluptate numquam unde hic accusantium eos reiciendis ut sed. Ipsam nemo voluptas laudantium!",
     "image": "./images/woman/pexels-anastasiya-gepp-2065195.jpg",
-    "price": 111,
     "gender": "female",
-    "size": "L"
+    "size": "L",
+    "discountedPrice": 113
   },
   {
     "id": 2,
@@ -40,9 +40,9 @@
     "title": "Bag",
     "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque nostrum iste explicabo enim dolores, rem totam. Nobis, voluptate num!",
     "image": "./images/woman/pexels-yuri-manei-2235071.jpg",
-    "price": 288,
     "gender": "female",
-    "size": "L"
+    "size": "L",
+    "discountedPrice": 144
   },
   {
     "id": 6,
@@ -60,7 +60,8 @@
     "image": "./images/woman/pexels-monstera-6311475.jpg",
     "price": 212,
     "gender": "female",
-    "size": "S"
+    "size": "S",
+    "discountedPrice": 108
   },
   {
     "id": 8,
