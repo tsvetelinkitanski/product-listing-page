@@ -4,55 +4,71 @@
     "title": "T-shirt",
     "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque nostrum iste explicabo enim dolores, rem totam. Nobis, voluptate numquam unde hic accusantium eos reiciendis ut sed. Ipsam nemo voluptas laudantium!",
     "image": "./images/man/pexels-chloe-1043474.jpg",
-    "price": 221
+    "price": 221,
+    "gender": "male",
+    "size": "L"
   },
   {
     "id": 2,
     "title": "Jeans",
     "description": "Lorem, ipsum dolor sit amet consectetur explicabo enim dolores, rem totam. Nobis, voluptate numquam unde hic accusantium eos reiciendis ut sed. Ipsam nemo voluptas laudantium!",
     "image": "./images/man/pexels-jt-kim-914472.jpg",
-    "price": 132
+    "price": 132,
+    "gender": "male",
+    "size": "M"
   },
   {
     "id": 3,
     "title": "Shorts",
     "description": "Lorem, adipisicing elit. Neque nostrum iste explicabo enim dolores, rem totam. Nobis, voluptate numquam unde hic accusantium eos reiciendis ut sed. Ipsam nemo voluptas laudantium!",
     "image": "./images/man/pexels-marlene-leppänen-1183266.jpg",
-    "price": 443
+    "price": 443,
+    "gender": "male",
+    "size": "S"
   },
   {
     "id": 4,
     "title": "Shirt",
     "description": "Lorem, ipsum dolor sit amet consectetur adipisicing nostrum iste explicabo enim dolores, rem totam. Nobis, voluptate numquam unde hic accusantium eos reiciendis ut sed. Ipsam nemo voluptas laudantium!",
     "image": "./images/man/pexels-raul-reynoso-1018911.jpg",
-    "price": 122
+    "price": 122,
+    "gender": "male",
+    "size": "L"
   },
   {
     "id": 5,
     "title": "Bag",
     "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque nostrum iste explicabo enim dolores, rem totam. Nobis, voluptate num!",
     "image": "./images/man/pexels-rolando-brando-2709563.jpg",
-    "price": 100
+    "price": 100,
+    "gender": "male",
+    "size": "M"
   },
   {
     "id": 6,
     "title": "Backpack",
     "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque nostrum iste explicabo enim dolores, rem totam. Nobis, voluptate numquam unde hic accusantium eos reiciendis ut sed. Ipsam nemo voluptas laudantium!",
     "image": "./images/man/pexels-royal-anwar-450212.jpg",
-    "price": 45
+    "price": 51,
+    "gender": "male",
+    "size": "S"
   },
   {
     "id": 7,
     "title": "Backpack",
     "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque nostrum iste explicabo enim dolores, rem totam. Nobis, voluptate numquam unde hic accusantium eos reiciendis ut sed. Ipsam nemo voluptas laudantium!",
     "image": "./images/man/pexels-monstera-6310924.jpg",
-    "price": 45
+    "price": 54,
+    "gender": "male",
+    "size": "L"
   },
   {
     "id": 8,
     "title": "Backpack",
     "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque nostrum iste explicabo enim dolores, rem totam. Nobis, voluptate numquam unde hic accusantium eos reiciendis ut sed. Ipsam nemo voluptas laudantium!",
     "image": "./images/man/pexels-oliver-sjöström-1103828.jpg",
-    "price": 45
+    "price": 45,
+    "gender": "male",
+    "size": "M"
   }
 ]
