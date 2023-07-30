@@ -55,7 +55,7 @@ function GridPlace({ infoData }) {
         </div>
       </div>
       <Row xs={"auto"} md={"auto"} className="d-flex align-items-center gx-5">
-        <Container className="g-4">
+        <Container className=" pb-4 g-4">
           <Col className="m-1 d-flex flex-wrap justify-content-around">
             {sortedData.map((card) => (
               <GridCard key={card.id} {...card} />

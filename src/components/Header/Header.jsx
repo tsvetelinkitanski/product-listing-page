@@ -2,10 +2,9 @@ import React from "react";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import DropdownFilter from "../Dropdown/DropdownFilter";
 import { Link } from "react-router-dom";
 
-function Header({ onSort }) {
+function Header() {
   return (
     <div className="d-flex flex-column mt-5">
       <Navbar fixed="top" expand="lg" className="bg-body-tertiary">
@@ -34,7 +33,7 @@ function Header({ onSort }) {
         </Container>
       </Navbar>
       <div className="d-flex pt-5 justify-content-between align-items-center">
-        <div className=" col-9">{/* <DropdownFilter /> */}</div>
+        {/* <div className=" col-9"><DropdownFilter /></div> */}
       </div>
     </div>
   );

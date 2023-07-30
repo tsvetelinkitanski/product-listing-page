@@ -3,7 +3,6 @@ import Col from "react-bootstrap/Col";
 import ListGroup from "react-bootstrap/ListGroup";
 import Row from "react-bootstrap/Row";
 import Tab from "react-bootstrap/Tab";
-import { Link } from "react-router-dom";
 
 export default function DropdownFilter({ onFilter }) {
   const [genderFilters, setGenderFilters] = useState([]);

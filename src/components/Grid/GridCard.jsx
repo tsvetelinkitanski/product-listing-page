@@ -2,11 +2,18 @@ import { useState } from "react";
 import { Badge, Modal, Form } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
+import { Rating } from "react-simple-star-rating";
 
 function GridCard(card) {
   const [showModal, setShowModal] = useState(false);
+  const [rating, setRating] = useState(0);
   const handleModal = () => {
     setShowModal(!showModal);
+  };
+
+  // Catch Rating value
+  const handleRating = (rate) => {
+    setRating(rate);
   };
 
   return (
@@ -41,6 +48,9 @@ function GridCard(card) {
         >
           Add to cart
         </Button>
+        <div className=" d-flex justify-content-center pt-3">
+          <Rating onClick={handleRating} />
+        </div>
       </Card.Body>
     </Card>
   );
