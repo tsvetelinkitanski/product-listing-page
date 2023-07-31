@@ -63,7 +63,7 @@ function GridCard(card) {
               ${calculateDiscountedPrice()}
             </Badge>
           </div>
-          <Card.Text className="text-secondary">{card.description}</Card.Text>
+          <Card.Text className="text-secondary w-100 h-100">{card.description}</Card.Text>
           <Button
             className="font-weight-bold"
             variant="primary"

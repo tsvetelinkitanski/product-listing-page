@@ -1,4 +1,4 @@
-# VogueVilla <img src="https://user-images.githubusercontent.com/101931596/230755952-171d93ce-758a-4876-a952-76ff49421836.png" alt="favicon" width="50" height="50">
+# VogueVilla <img src="https://github.com/tsvetelinkitanski/product-listing-page/assets/106109735/fa8fc94d-7530-4705-b301-5ec9a72db8e3" alt="favicon" width="50" height="50">
 
 ## Details
 
@@ -25,8 +25,10 @@ Used libraries
 - filter by 'size' and 'gender'
 
 
-## Screenshots
 
-![Home Page)](https://user-images.githubusercontent.com/101931596/230756790-01999961-b4e7-47bb-9696-bf1907966fb5.png)
-![Home Pade (dark mode)](https://user-images.githubusercontent.com/101931596/230756792-aaec959a-79eb-478d-984e-e974efc42c42.png)
-![On Mobile device](https://user-images.githubusercontent.com/101931596/230756793-1f553f0c-88b2-4fdb-932f-e475a537795c.png)
+
+
+## Screenshots
+![Screenshot 2023-07-31 at 16-08-47 Prouct Listing Page](https://github.com/tsvetelinkitanski/product-listing-page/assets/106109735/97067665-58d4-4847-a664-f98efb8c2443)
+![Screenshot 2023-07-31 at 15-40-16 Prouct Listing Page](https://github.com/tsvetelinkitanski/product-listing-page/assets/106109735/d2198d06-b066-4cf2-ae07-1ef15787c3dd)
+![Screenshot 2023-07-31 at 16-35-04 Prouct Listing Page](https://github.com/tsvetelinkitanski/product-listing-page/assets/106109735/7c6a60a4-7c1b-4288-96a9-8686aac51d8e)
