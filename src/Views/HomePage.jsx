@@ -25,7 +25,7 @@ export default function HomePage() {
   };
   return (
     <>
-      <h2 className="d-flex justify-content-center text-bg-info bg-opacity-50 mt-4 rounded-bottom-5">
+      <h2 className=" align-content-center font-weight-bold rounded-5 p-3 text-bg-dark mt-4 text-center">
         Home page
       </h2>
       <GridPlace key={renderKey} infoData={displayedData} />

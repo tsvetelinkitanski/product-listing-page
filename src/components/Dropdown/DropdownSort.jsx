@@ -8,7 +8,7 @@ function DropdownSort({ onSort }) {
 
   return (
     <Dropdown>
-      <Dropdown.Toggle variant="secondary" id="dropdown-basic">
+      <Dropdown.Toggle variant="outline-dark btn-sm mr-4" id="dropdown-basic">
         Sort
       </Dropdown.Toggle>
 
