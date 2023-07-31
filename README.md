@@ -31,3 +31,4 @@ Used libraries
 ## Screenshots
 ![Screenshot 2023-07-31 at 16-08-47 Prouct Listing Page](https://github.com/tsvetelinkitanski/product-listing-page/assets/106109735/97067665-58d4-4847-a664-f98efb8c2443)
 ![Screenshot 2023-07-31 at 15-40-16 Prouct Listing Page](https://github.com/tsvetelinkitanski/product-listing-page/assets/106109735/d2198d06-b066-4cf2-ae07-1ef15787c3dd)
+![Screenshot 2023-07-31 at 16-48-53 Prouct Listing Page](https://github.com/tsvetelinkitanski/product-listing-page/assets/106109735/78c679c5-4109-4e38-85fc-cd7e6cad4eb9)
