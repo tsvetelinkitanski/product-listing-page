@@ -25,9 +25,14 @@ export default function HomePage() {
   };
   return (
     <>
-      <h2 className=" align-content-center font-weight-bold rounded-5 p-3 text-bg-dark mt-4 text-center">
-        Home page
-      </h2>
+      <div>
+        <h2 className=" align-content-center font-weight-bold rounded-5 p-3 text-bg-dark mt-4 text-center">
+          Home page
+        </h2>
+        <p className="d-flex justify-content-center lead">
+          Discover new treasures
+        </p>
+      </div>
       <GridPlace key={renderKey} infoData={displayedData} />
       {!loadMore && (
         <div className="d-flex justify-content-center mb-5">

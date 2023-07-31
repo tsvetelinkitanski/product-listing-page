@@ -9,6 +9,7 @@ import DropdownFilter from "../Dropdown/DropdownFilter";
 function GridPlace({ infoData }) {
   const [filteredData, setFilteredData] = useState(infoData);
   const [sortedData, setSortedData] = useState(filteredData);
+  const [productCount, setProductCount] = useState(sortedData.length);
 
   const handleFilter = (filters) => {
     // Perform filtering logic based on filters (genderFilters and sizeFilters)
@@ -56,6 +57,7 @@ function GridPlace({ infoData }) {
   // Update sortedData when filteredData changes
   useEffect(() => {
     setSortedData(filteredData);
+    setProductCount(filteredData.length);
   }, [filteredData]);
 
   return (
@@ -66,6 +68,9 @@ function GridPlace({ infoData }) {
           <DropdownFilter onFilter={handleFilter} />
         </div>
       </div>
+      <span className="d-flex justify-content-center text-secondary">
+        Items: {productCount}
+      </span>
       <Row xs={"auto"} md={"auto"} className="d-flex align-items-center gx-5">
         <Container className=" pb-4 g-4">
           <Col className="m-1 d-flex flex-wrap justify-content-around">
