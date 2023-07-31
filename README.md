@@ -1,4 +1,4 @@
-# VogueVilla <img src="https://user-images.githubusercontent.com/101931596/230755952-171d93ce-758a-4876-a952-76ff49421836.png" alt="favicon" width="50" height="50">
+# VogueVilla <img src="https://github.com/tsvetelinkitanski/product-listing-page/assets/106109735/fa8fc94d-7530-4705-b301-5ec9a72db8e3" alt="favicon" width="50" height="50">
 
 ## Details
 
