@@ -36,4 +36,4 @@ Used libraries
 ![Screenshot 2023-07-31 at 15-33-34 Prouct Listing Page](https://github.com/tsvetelinkitanski/product-listing-page/assets/106109735/33272fb8-a966-40fe-8ef1-1a456b688e7a)
 ![Screenshot 2023-07-31 at 15-36-18 Prouct Listing Page](https://github.com/tsvetelinkitanski/product-listing-page/assets/106109735/263be315-ef06-4b5b-b966-e65513dff15e)
 ![Screenshot 2023-07-31 at 15-40-16 Prouct Listing Page](https://github.com/tsvetelinkitanski/product-listing-page/assets/106109735/d2198d06-b066-4cf2-ae07-1ef15787c3dd)
-![Screenshot 2023-07-31 at 15-41-52 Prouct Listing Page](https://github.com/tsvetelinkitanski/product-listing-page/assets/106109735/4ebe98fa-3434-41fa-bbf7-19e30fcb062a)
+![Screenshot 2023-07-31 at 15-57-19 Prouct Listing Page](https://github.com/tsvetelinkitanski/product-listing-page/assets/106109735/ac3520e9-7ae1-4659-8a33-90dca04e0fbb)
