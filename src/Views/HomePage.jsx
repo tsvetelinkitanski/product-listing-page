@@ -1,5 +1,5 @@
-import React, { useEffect, useState } from "react";
-import allData from "../allData.json";
+import React, { useState } from "react";
+import allData from "../dataAll.json";
 import Button from "react-bootstrap/Button";
 import GridPlace from "../components/Grid/GridPlace";
 

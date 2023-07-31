@@ -9,7 +9,7 @@ function Header() {
     <div className="d-flex flex-column mt-5">
       <Navbar fixed="top" expand="lg" className="bg-body-tertiary">
         <Container>
-          <Navbar.Brand as={Link} to="/home">
+          <Navbar.Brand as={Link} to="/">
             <img
               src="./images/Logo.jpg"
               className="d-flex w-25 pl-3 pr-3"
