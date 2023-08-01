@@ -12,8 +12,7 @@ Used libraries
 
 `clone repo`
 
--`npm i`
--`npm start`
+-`npm i` -`npm start`
 
 ## Features
 
@@ -24,15 +23,28 @@ Used libraries
 - sort by 'A-Z', 'Z-A', 'Ascending order', 'Descending order'
 - filter by 'size' and 'gender'
 
+## Screenshots
 
+## Home page
 
-
-
-## Screenshots!
 ![Home page](https://github.com/tsvetelinkitanski/product-listing-page/assets/106109735/67ca5bb8-7e63-464d-abbd-19d973136d86)
-![Sale page](https://github.com/tsvetelinkitanski/product-listing-page/assets/106109735/577a1e6c-8c76-4770-8bdf-4aa197740db6)
-![Home page with Load button clicked and sorted by Descending order](https://github.com/tsvetelinkitanski/product-listing-page/assets/106109735/44f35df7-5a24-4ca6-85da-d27a75d0d396)
-![Home page with filter - gender Male and size M](https://github.com/tsvetelinkitanski/product-listing-page/assets/106109735/03130c6a-5196-4141-8cb8-291453b113e4)
-[Home screen with stars](https://github.com/tsvetelinkitanski/product-listing-page/assets/106109735/e33cd4b6-18df-4797-83d7-8fbf0aa31c88)
-![Home page with filters](https://github.com/tsvetelinkitanski/product-listing-page/assets/106109735/87eb9d1a-5da5-4718-b6ca-57c00e5608d4)
 
+## Sale page
+
+![Sale page](https://github.com/tsvetelinkitanski/product-listing-page/assets/106109735/577a1e6c-8c76-4770-8bdf-4aa197740db6)
+
+## Home page with Load button clicked and sorted by Descending order
+
+![Home page with Load button clicked and sorted by Descending order](https://github.com/tsvetelinkitanski/product-listing-page/assets/106109735/44f35df7-5a24-4ca6-85da-d27a75d0d396)
+
+## Home page with filter - gender Male and size M
+
+![Home page with filter - gender Male and size M](https://github.com/tsvetelinkitanski/product-listing-page/assets/106109735/03130c6a-5196-4141-8cb8-291453b113e4)
+
+## Home screen with stars
+
+[Home screen with stars](https://github.com/tsvetelinkitanski/product-listing-page/assets/106109735/e33cd4b6-18df-4797-83d7-8fbf0aa31c88)
+
+## Home page with filters
+
+![Home page with filters](https://github.com/tsvetelinkitanski/product-listing-page/assets/106109735/87eb9d1a-5da5-4718-b6ca-57c00e5608d4)
