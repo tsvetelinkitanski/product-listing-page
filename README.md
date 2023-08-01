@@ -14,6 +14,10 @@ Used libraries
 
 -`npm i` -`npm start`
 
+## Architecture
+
+-Component-based-architecture
+
 ## Features
 
 - mobile responsive
@@ -22,6 +26,10 @@ Used libraries
 - prettier config for formatting code
 - sort by 'A-Z', 'Z-A', 'Ascending order', 'Descending order'
 - filter by 'size' and 'gender'
+
+## Chalenges
+-Component Reusability & Composition: Designing components in a way that makes them reusable and composable across the application.
+
 
 ## Screenshots
 
