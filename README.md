@@ -28,6 +28,11 @@ Used libraries
 
 
 
-## Screenshots
-![Screenshot 2023-07-31 at 16-08-47 Prouct Listing Page](https://github.com/tsvetelinkitanski/product-listing-page/assets/106109735/97067665-58d4-4847-a664-f98efb8c2443)
-![Screenshot 2023-07-31 at 16-48-53 Prouct Listing Page](https://github.com/tsvetelinkitanski/product-listing-page/assets/106109735/78c679c5-4109-4e38-85fc-cd7e6cad4eb9)
+## Screenshots!
+![Home page](https://github.com/tsvetelinkitanski/product-listing-page/assets/106109735/67ca5bb8-7e63-464d-abbd-19d973136d86)
+![Sale page](https://github.com/tsvetelinkitanski/product-listing-page/assets/106109735/577a1e6c-8c76-4770-8bdf-4aa197740db6)
+![Home page with Load button clicked and sorted by Descending order](https://github.com/tsvetelinkitanski/product-listing-page/assets/106109735/44f35df7-5a24-4ca6-85da-d27a75d0d396)
+![Home page with filter - gender Male and size M](https://github.com/tsvetelinkitanski/product-listing-page/assets/106109735/03130c6a-5196-4141-8cb8-291453b113e4)
+[Home screen with stars](https://github.com/tsvetelinkitanski/product-listing-page/assets/106109735/e33cd4b6-18df-4797-83d7-8fbf0aa31c88)
+![Home page with filters](https://github.com/tsvetelinkitanski/product-listing-page/assets/106109735/87eb9d1a-5da5-4718-b6ca-57c00e5608d4)
+
