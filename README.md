@@ -43,7 +43,7 @@ Used libraries
 
 ## Home screen with stars
 
-[Home screen with stars](https://github.com/tsvetelinkitanski/product-listing-page/assets/106109735/e33cd4b6-18df-4797-83d7-8fbf0aa31c88)
+![Home screen with stars](https://github.com/tsvetelinkitanski/product-listing-page/assets/106109735/e33cd4b6-18df-4797-83d7-8fbf0aa31c88)
 
 ## Home page with filters
 
