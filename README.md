@@ -12,7 +12,8 @@ Used libraries
 
 `clone repo`
 
--`npm i` -`npm start`
+-`npm i` 
+-`npm start`
 
 ## Architecture
 
