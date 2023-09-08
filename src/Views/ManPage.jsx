@@ -15,5 +15,3 @@ export default function ManPage() {
     </>
   );
 }
-
-// d-flex justify-content-center text-bg-dark bg-opacity-50 mt-4 rounded-bottom-5
